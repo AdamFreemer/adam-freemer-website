@@ -25,7 +25,7 @@ export function HeroSection() {
             className="bg-white text-black px-8 py-3 rounded-lg hover:bg-white/90 transition-all duration-300 font-medium"
           >
             Contact
-          </a>
+          </a>        
         </div>
       </div>
 

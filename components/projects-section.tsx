@@ -7,21 +7,21 @@ export function ProjectsSection() {
       url: "https://court.ninja",
       description:
         "A sports training application that algorithmically calculates the best athlete during dynamically created tournament matches. Built with modern web technologies to handle real-time match data and performance analytics.",
-      tech: ["React", "Node.js", "Algorithm Design", "Real-time Analytics"],
+      tech: ["Ruby", "Rails", "JavaScript", "StimulusJS", "TailwindCSS", "PostgreSQL", "Stripe", "Heroku"],
     },
     {
       title: "Vaxxmax",
       url: "https://vaxxmax.com",
       description:
         "A high-scale web application that reached 4 million daily page views and processed 10,000 requests per minute, helping thousands secure COVID vaccine appointments during the pandemic's peak.",
-      tech: ["Next.js", "High-Scale Architecture", "Real-time Processing", "API Integration"],
+      tech: ["Ruby", "Rails", "JavaScript", "PostgreSQL", "Heroku"],
     },
     {
       title: "RMC-1 MIDI Controller",
       url: "http://afxmidi.com",
       description:
         "A custom MIDI controller that emulates the look and feel of classic analog rotary DJ mixers, bridging the gap between vintage hardware aesthetics and modern digital control.",
-      tech: ["Hardware Design", "MIDI Protocol", "Embedded Systems", "Audio Engineering"],
+      tech: ["Hardware Design", "MIDI Protocol", "Embedded Systems", "C++", "Arduino", "CAD"],
     },
     {
       title: "Adam Freemer Music",
@@ -29,7 +29,7 @@ export function ProjectsSection() {
       urlAlias: "beatport.com",
       description:
         "30 years of electronic music production featuring multiple Billboard chart-topping remixes and original productions, showcasing expertise in audio engineering and creative direction.",
-      tech: ["Music Production", "Audio Engineering", "Creative Direction", "Sound Design"],
+      tech: ["Music Production", "Audio Engineering", "ProTools"],
     },
   ]
 
@@ -41,7 +41,7 @@ export function ProjectsSection() {
             <h2 className="text-4xl font-light text-gray-900 mb-4">Selected Projects</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               A collection of software engineering projects with additional work in hardware design and audio
-              engineering
+              engineering.
             </p>
           </div>
 
