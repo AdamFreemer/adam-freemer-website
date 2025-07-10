@@ -3,6 +3,14 @@ import { ExternalLink } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
+      title: "KidVid",
+      url: "https://kidvid.vercel.app/",
+      urlAlias: "kidvid.vercel.app",
+      description:
+        "An AI based child video search engine project.",
+      tech: ["React", "Next.js", "TailwindCSS", "Vercel", "OpenAI API", "Youtube API"],
+    },         
+    {
       title: "Court Ninja",
       url: "https://court.ninja",
       description:
