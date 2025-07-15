@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react"
+import { ArrowDown, Github as GithubIcon } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -9,9 +9,34 @@ export function HeroSection() {
       <div className="relative z-10 text-center text-white px-4">
         <h1 className="signature-font text-6xl md:text-8xl mb-6 tracking-wide">Adam Freemer</h1>
         <p className="text-xl md:text-2xl font-light mb-8 text-white/90">Software Engineer and Technologist</p>
-        <p className="text-lg text-white/80 mb-12 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto leading-relaxed">
           Building innovative solutions at the intersection of technology, music, and human experience
         </p>
+
+        <div className="border border-white/20 rounded-lg p-6 mb-12 max-w-md mx-auto bg-white/5 backdrop-blur-sm">
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <GithubIcon className="w-5 h-5" />
+            <h3 className="text-lg font-medium">Latest GitHub Activity</h3>
+          </div>
+          <div className="flex flex-col gap-3 items-center">
+            <a
+              href="https://github.com/AdamFreemer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/80 hover:text-white transition-colors duration-200 text-sm"
+            >
+              Personal: @AdamFreemer
+            </a>
+            <a
+              href="https://github.com/adamf-va"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/80 hover:text-white transition-colors duration-200 text-sm"
+            >
+              Work: @adamf-va
+            </a>
+          </div>
+        </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
