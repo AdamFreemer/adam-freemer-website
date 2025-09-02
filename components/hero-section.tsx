@@ -9,9 +9,6 @@ export function HeroSection() {
       <div className="relative z-10 text-center text-white px-4">
         <h1 className="signature-font text-6xl md:text-8xl mb-6 tracking-wide">Adam Freemer</h1>
         <p className="text-xl md:text-2xl font-light mb-8 text-white/90">Software Engineer and Technologist</p>
-        <p className="text-lg text-white/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-          Building innovative solutions at the intersection of technology, music, and human experience
-        </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
