@@ -15,14 +15,20 @@ export function HeroSection() {
             href="#projects"
             className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-3 rounded-lg hover:bg-white/20 transition-all duration-300 font-medium"
           >
-            View Projects
+            Projects
           </a>
           <a
             href="#contact"
             className="bg-white text-black px-8 py-3 rounded-lg hover:bg-white/90 transition-all duration-300 font-medium"
           >
             Contact
-          </a>        
+          </a>
+          <a
+            href="https://www.linkedin.com/in/adamfreemer" target="_blank"
+            className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-3 rounded-lg hover:bg-white/20 transition-all duration-300 font-medium"
+          >
+            LinkedIn
+          </a>              
         </div>
       </div>
 
