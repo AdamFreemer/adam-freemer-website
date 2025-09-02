@@ -27,14 +27,6 @@ export function HeroSection() {
             >
               Personal: @AdamFreemer
             </a>
-            <a
-              href="https://github.com/adamf-va"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white/80 hover:text-white transition-colors duration-200 text-sm"
-            >
-              Work: @adamf-va
-            </a>
           </div>
         </div>
 
