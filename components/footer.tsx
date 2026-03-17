@@ -16,7 +16,7 @@ export function Footer() {
               <a href="#contact" className="text-gray-400 hover:text-white transition-colors text-sm">
                 Contact
               </a>
-              <a href="https://www.dropbox.com/scl/fi/6hy7m5jmorbc7g18z2ojh/AdamFreemerResumeJune2025.pdf?rlkey=ke76emgq80qjmv35x9ryh98fw&st=0e52wvms&dl=0" className="text-gray-400 hover:text-white transition-colors text-sm" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.dropbox.com/scl/fi/8vyhk7pyv0bbha0bn65tu/AdamFreemerResumeDecember2025.pdf?rlkey=ypk1boyortpez0523bjruphwp&dl=0" className="text-gray-400 hover:text-white transition-colors text-sm" target="_blank" rel="noopener noreferrer">
                 Download Resume
               </a>
           </div>

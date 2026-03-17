@@ -3,6 +3,13 @@ import { ExternalLink } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
+      title: "The Love Dealer",
+      url: "https://www.thelovedealer.com/",
+      urlAlias: "thelovedealer.com",
+      description: "An online matchmaking and dating service.",
+      tech: ["Ruby", "Rails", "JavaScript", "Hotwire", "StimulusJS", "TailwindCSS", "PostgreSQL", "Stripe", "Heroku"],
+    },
+    {
       title: "KidVid",
       url: "https://kidvid.vercel.app/",
       urlAlias: "kidvid.vercel.app",
@@ -46,7 +53,7 @@ export function ProjectsSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-light text-gray-900 mb-4">Selected Projects</h2>
+            <h2 className="text-4xl font-light text-gray-900 mb-4">Software, Hardware and Personal Projects</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               A collection of software engineering projects with additional work in hardware design and audio
               engineering.

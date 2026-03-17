@@ -47,7 +47,7 @@ export function ContactSection() {
               GitHub
             </a>
             <a
-              href="https://www.dropbox.com/scl/fi/6hy7m5jmorbc7g18z2ojh/AdamFreemerResumeJune2025.pdf?rlkey=ke76emgq80qjmv35x9ryh98fw&st=0e52wvms&dl=0"
+              href="https://www.dropbox.com/scl/fi/8vyhk7pyv0bbha0bn65tu/AdamFreemerResumeDecember2025.pdf?rlkey=ypk1boyortpez0523bjruphwp&dl=0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-400 transition-colors"
