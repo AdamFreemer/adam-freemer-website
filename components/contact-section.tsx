@@ -1,59 +1,31 @@
-import { Linkedin, Github } from "lucide-react"
+const contactLinks = [
+  { label: "LinkedIn", href: "https://linkedin.com/in/adamfreemer", external: true },
+  { label: "GitHub", href: "https://github.com/adamfreemer", external: true },
+  { label: "Email", href: "mailto:contact@freemer.com", external: false },
+]
 
 export function ContactSection() {
-  const socialLinks = [
-    {
-      name: "LinkedIn",
-      url: "https://linkedin.com/in/adamfreemer",
-      icon: Linkedin,
-      description: "Professional network and career updates",
-    },
-    {
-      name: "GitHub",
-      url: "https://github.com/adamfreemer",
-      icon: Github,
-      description: "Open source projects and code repositories",
-    },
-  ]
-
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-gray-900 to-black text-white">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-light mb-6">Let's Connect</h2>
-          <p className="text-gray-300 text-lg mb-12 max-w-2xl mx-auto">
-            Interested in collaborating on innovative projects or discussing technology solutions? I'd love to hear from
-            you.
-          </p>
-
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-lg">
-            <a
-              href="https://linkedin.com/in/adamfreemer"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-blue-400 transition-colors"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="https://github.com/adamfreemer"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-blue-400 transition-colors"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.dropbox.com/scl/fi/24uj1x184zybzph05so9z/AdamFreemerResumeMay2026.pdf?rlkey=p3iwnoer0vimr8tdxt8ue5gyi&dl=0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-blue-400 transition-colors"
-            >
-              Resume
-            </a>
-          </div>
-        </div>
+    <div
+      id="contact"
+      className="mx-5 mb-8 flex flex-col items-center gap-4 rounded-[10px] border border-border-subtle bg-bg-card p-5 text-center sm:mx-8 sm:flex-row sm:items-center sm:justify-between sm:gap-0 sm:p-7 sm:text-left animate-fade-in [animation-delay:1.1s]"
+    >
+      <span className="text-[14px] font-light text-text-mid">
+        Philadelphia, PA — open to remote opportunities
+      </span>
+      <div className="flex flex-wrap justify-center gap-4 sm:justify-end">
+        {contactLinks.map((link) => (
+          <a
+            key={link.label}
+            href={link.href}
+            target={link.external ? "_blank" : undefined}
+            rel={link.external ? "noopener noreferrer" : undefined}
+            className="rounded-md border border-border-subtle px-3.5 py-1.5 font-mono text-[12px] text-text-mid transition-colors duration-200 hover:border-border-hover hover:text-text-bright"
+          >
+            {link.label}
+          </a>
+        ))}
       </div>
-    </section>
+    </div>
   )
 }
