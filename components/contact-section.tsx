@@ -35,9 +35,6 @@ export function ContactSection() {
             >
               LinkedIn
             </a>
-            <a href="mailto:adam@adamfreemer.com" className="text-white hover:text-blue-400 transition-colors">
-              Email
-            </a>
             <a
               href="https://github.com/adamfreemer"
               target="_blank"
@@ -47,7 +44,7 @@ export function ContactSection() {
               GitHub
             </a>
             <a
-              href="https://www.dropbox.com/scl/fi/8vyhk7pyv0bbha0bn65tu/AdamFreemerResumeDecember2025.pdf?rlkey=ypk1boyortpez0523bjruphwp&dl=0"
+              href="https://www.dropbox.com/scl/fi/24uj1x184zybzph05so9z/AdamFreemerResumeMay2026.pdf?rlkey=p3iwnoer0vimr8tdxt8ue5gyi&dl=0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-400 transition-colors"

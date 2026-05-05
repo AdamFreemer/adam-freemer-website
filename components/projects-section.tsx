@@ -3,23 +3,26 @@ import { ExternalLink } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "The Love Dealer",
-      url: "https://www.thelovedealer.com/",
-      urlAlias: "thelovedealer.com",
-      description: "An online matchmaking and dating service.",
-      tech: ["Ruby", "Rails", "JavaScript", "Hotwire", "StimulusJS", "TailwindCSS", "PostgreSQL", "Stripe", "Heroku"],
+      title: "Flip.Watch",
+      url: "https://flip.watch/",
+      urlAlias: "flip.watch",
+      date: "2026",
+      description: "A retro split-flap display for your desktop and chrome plug-in.",
+      tech: ["Claude Code", "Various Claude Skills / MCP", "React", "Next.js", "TypeScript", "TailwindCSS", "Supabase", "Stripe", "Upstash Redis", "Chrome Extension (MV3)", "Vercel"],
     },
     {
       title: "KidVid",
       url: "https://kidvid.vercel.app/",
       urlAlias: "kidvid.vercel.app",
+      date: "2025",
       description:
         "An AI based child video search engine project.",
-      tech: ["React", "Next.js", "TailwindCSS", "Vercel", "OpenAI API", "Youtube API"],
-    },         
+      tech: ["Claude Code", "Various Claude Skills / MCP", "React", "Next.js", "TypeScript", "TailwindCSS", "Vercel", "OpenAI API", "Youtube API"],
+    },
     {
       title: "Court Ninja",
       url: "https://court.ninja",
+      date: "2023 – 2025",
       description:
         "A sports training application that algorithmically calculates the best athlete during dynamically created tournament matches. Built with modern web technologies to handle real-time match data and performance analytics.",
       tech: ["Ruby", "Rails", "JavaScript", "StimulusJS", "TailwindCSS", "PostgreSQL", "Stripe", "Heroku"],
@@ -27,6 +30,7 @@ export function ProjectsSection() {
     {
       title: "Vaxxmax",
       url: "https://vaxxmax.com",
+      date: "2021",
       description:
         "A high-scale web application that reached 4 million daily page views and processed 10,000 requests per minute, helping thousands secure COVID vaccine appointments during the pandemic's peak.",
       tech: ["Ruby", "Rails", "JavaScript", "PostgreSQL", "Heroku"],
@@ -34,6 +38,7 @@ export function ProjectsSection() {
     {
       title: "RMC-1 MIDI Controller",
       url: "http://afxmidi.com",
+      date: "2016",
       description:
         "A custom MIDI controller that emulates the look and feel of classic analog rotary DJ mixers, bridging the gap between vintage hardware aesthetics and modern digital control.",
       tech: ["Hardware Design", "MIDI Protocol", "Embedded Systems", "C++", "Arduino", "CAD"],
@@ -42,6 +47,7 @@ export function ProjectsSection() {
       title: "Adam Freemer Music",
       url: "https://www.beatport.com/artist/adam-freemer/505",
       urlAlias: "beatport.com",
+      date: "1995 – Current",
       description:
         "30 years of electronic music production featuring multiple Billboard chart-topping remixes and original productions, showcasing expertise in audio engineering and creative direction.",
       tech: ["Music Production", "Audio Engineering", "ProTools"],
@@ -66,7 +72,7 @@ export function ProjectsSection() {
                 key={index}
                 className="bg-white rounded-xl shadow-sm border border-gray-200 p-8 hover:shadow-lg transition-all duration-300"
               >
-                <div className="flex items-start justify-between mb-6">
+                <div className="flex items-start justify-between mb-6 gap-4">
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
                       <h3 className="text-xl font-semibold text-gray-900">{project.title}</h3>
@@ -81,6 +87,11 @@ export function ProjectsSection() {
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   </div>
+                  {project.date && (
+                    <span className="text-sm text-gray-500 font-light tracking-wide whitespace-nowrap mt-1">
+                      {project.date}
+                    </span>
+                  )}
                 </div>
 
                 <p className="text-gray-700 leading-relaxed mb-6">{project.description}</p>
