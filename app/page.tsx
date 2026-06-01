@@ -391,7 +391,7 @@ export default function Home() {
               className="card-proj"
               href="https://github.com/AdamFreemer/rails-ai-intake-bot"
             >
-              <div className="yr">2025 – Current</div>
+              <div className="yr">2026 – Current</div>
               <h3>AI Intake Bot</h3>
               <p>
                 A production-grade conversational WhatsApp intake bot. Claude
@@ -424,6 +424,23 @@ export default function Home() {
                 <span className="tag">Vercel</span>
               </div>
               <span className="go-link">flip.watch →</span>
+            </a>
+            <a className="card-proj" href="https://hacker-hirings.com/">
+              <div className="yr">2026 – Current</div>
+              <h3>Hacker Hirings</h3>
+              <p>
+                Aggregates and analyzes Hacker News&apos; monthly &ldquo;Who is
+                Hiring?&rdquo; threads across 180+ months, surfacing which
+                languages, frameworks, and tools employers are hiring for and how
+                that demand trends over time.
+              </p>
+              <div className="tags">
+                <span className="tag">Next.js</span>
+                <span className="tag">TypeScript</span>
+                <span className="tag">PostgreSQL</span>
+                <span className="tag">Vercel</span>
+              </div>
+              <span className="go-link">hacker-hirings.com →</span>
             </a>
             <a className="card-proj" href="https://court.ninja">
               <div className="yr">2022 – 2025</div>
