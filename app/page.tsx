@@ -442,6 +442,45 @@ export default function Home() {
               </div>
               <span className="go-link">hacker-hirings.com →</span>
             </a>
+            <a className="card-proj" href="https://kilnfront.com">
+              <div className="yr">2026 – Current</div>
+              <h3>KilnFront</h3>
+              <p>
+                A multi-tenant storefront and gallery platform for potters and
+                makers. Each artist gets a branded storefront on their own
+                subdomain, picks a visual skin, and sells through their own
+                Stripe via Connect direct charges, so money never touches the
+                platform. Gallery for the work that isn&apos;t for sale, a
+                journal, shipping and order fulfillment, tiered plans, and an
+                admin portal with coupon-based comps.
+              </p>
+              <div className="tags">
+                <span className="tag">Next.js</span>
+                <span className="tag">TypeScript</span>
+                <span className="tag">Supabase</span>
+                <span className="tag">Stripe Connect</span>
+                <span className="tag">Vercel</span>
+              </div>
+              <span className="go-link">kilnfront.com →</span>
+            </a>
+            <a className="card-proj" href="https://lawnalyzer.com">
+              <div className="yr">2026 – Current</div>
+              <h3>Lawnalyzer</h3>
+              <p>
+                White-label SaaS that turns a property address into an instant,
+                branded quote for lawn-care and snow-removal businesses. AI
+                measures the lot from satellite imagery and parcel records, then
+                prices every job with the operator&apos;s own rates.
+              </p>
+              <div className="tags">
+                <span className="tag">Rails</span>
+                <span className="tag">Ruby</span>
+                <span className="tag">Hotwire</span>
+                <span className="tag">PostgreSQL</span>
+                <span className="tag">Stripe</span>
+              </div>
+              <span className="go-link">lawnalyzer.com →</span>
+            </a>
             <a className="card-proj" href="https://court.ninja">
               <div className="yr">2022 – 2025</div>
               <h3>Court Ninja</h3>
