@@ -34,7 +34,7 @@ export default function Home() {
           <div className="wrap">
             <div className="hero-inner">
               <div>
-                <div className="eyebrow">Lead Engineer · Philadelphia, PA</div>
+                <div className="eyebrow">Associate Principal Engineer · Philadelphia, PA</div>
                 <h1 className="name">
                   Adam
                   <br />
@@ -126,8 +126,8 @@ export default function Home() {
               <span className="now">Present</span>
             </div>
             <div>
-              <div className="job-role">Lead Engineer</div>
-              <div className="job-client">Zen Strategies · U.S.C.I.S. (DHS)</div>
+              <div className="job-role">Associate Principal Engineer</div>
+              <div className="job-client">Titan Technologies · U.S.C.I.S. (DHS)</div>
               <p className="job-desc">
                 Lead engineer on Asset Manager, the internal USCIS application
                 managing vulnerabilities and availability of every asset on the

@@ -17,18 +17,18 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 const description =
-  "Senior full-stack engineer in Philadelphia. Twelve years of Ruby on Rails, federal modernization, and AI-augmented development."
+  "Associate Principal Engineer in Philadelphia. Twelve years of Ruby on Rails, federal modernization, and AI-augmented development."
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.adamfreemer.com"),
-  title: "Adam Freemer · Senior Full-Stack Engineer · Philadelphia",
+  title: "Adam Freemer · Associate Principal Engineer · Philadelphia",
   description,
   authors: [{ name: "Adam Freemer" }],
   icons: { icon: { url: "/favicon.svg", type: "image/svg+xml" } },
   openGraph: {
     type: "profile",
     siteName: "Adam Freemer",
-    title: "Adam Freemer · Senior Full-Stack Engineer · Philadelphia",
+    title: "Adam Freemer · Associate Principal Engineer · Philadelphia",
     description,
     url: "https://www.adamfreemer.com/",
     locale: "en_US",
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Adam Freemer — Senior Full-Stack Engineer, Philadelphia",
+        alt: "Adam Freemer — Associate Principal Engineer, Philadelphia",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adam Freemer · Senior Full-Stack Engineer · Philadelphia",
+    title: "Adam Freemer · Associate Principal Engineer · Philadelphia",
     description,
     images: ["/og-image.jpg"],
   },
@@ -64,9 +64,9 @@ const personJsonLd = {
   url: "https://www.adamfreemer.com",
   image: "https://www.adamfreemer.com/og-image.jpg",
   email: "adam@freemer.com",
-  jobTitle: "Lead Engineer",
+  jobTitle: "Associate Principal Engineer",
   description,
-  worksFor: { "@type": "Organization", name: "Zen Strategies" },
+  worksFor: { "@type": "Organization", name: "Titan Technologies" },
   address: {
     "@type": "PostalAddress",
     addressLocality: "Philadelphia",
