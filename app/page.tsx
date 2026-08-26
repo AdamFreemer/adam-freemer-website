@@ -34,7 +34,6 @@ export default function Home() {
           <div className="wrap">
             <div className="hero-inner">
               <div>
-                <div className="eyebrow">Associate Principal Engineer · Philadelphia, PA</div>
                 <h1 className="name">
                   Adam
                   <br />
