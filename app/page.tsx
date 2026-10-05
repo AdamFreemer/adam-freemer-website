@@ -480,6 +480,22 @@ export default function Home() {
               </div>
               <span className="go-link">lawnalyzer.com →</span>
             </a>
+            <a className="card-proj" href="https://theplainledger.com">
+              <div className="yr">2026 – Current</div>
+              <h3>The Plain Ledger</h3>
+              <p>
+                A global, national, and local news aggregator with editorial
+                picks and no ranking algorithm. Feeds link straight to the
+                original sources, alongside local weather and market data, for
+                news without the noise.
+              </p>
+              <div className="tags">
+                <span className="tag">Next.js</span>
+                <span className="tag">React</span>
+                <span className="tag">Vercel</span>
+              </div>
+              <span className="go-link">theplainledger.com →</span>
+            </a>
             <a className="card-proj" href="https://court.ninja">
               <div className="yr">2022 – 2025</div>
               <h3>Court Ninja</h3>
